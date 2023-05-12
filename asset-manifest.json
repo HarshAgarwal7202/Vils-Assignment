@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Vils-Assignment/static/css/main.6c260e3d.css",
+    "main.js": "/Vils-Assignment/static/js/main.03baabef.js",
+    "static/js/787.64709e90.chunk.js": "/Vils-Assignment/static/js/787.64709e90.chunk.js",
+    "static/media/play-button.png": "/Vils-Assignment/static/media/play-button.cb9fc1968b8fb1d6a958.png",
+    "static/media/pause.png": "/Vils-Assignment/static/media/pause.ee82f6cd92e5e973ddec.png",
+    "static/media/logo.svg": "/Vils-Assignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Vils-Assignment/index.html",
+    "main.6c260e3d.css.map": "/Vils-Assignment/static/css/main.6c260e3d.css.map",
+    "main.03baabef.js.map": "/Vils-Assignment/static/js/main.03baabef.js.map",
+    "787.64709e90.chunk.js.map": "/Vils-Assignment/static/js/787.64709e90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c260e3d.css",
+    "static/js/main.03baabef.js"
+  ]
+}
