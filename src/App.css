@@ -1,0 +1,166 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: azure;
+}
+.Header{
+  text-align: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid black;
+  border-radius: 20px;
+
+}
+
+.videoContainer {
+  width: 700px;
+  border-top-right-radius: 20px;
+  border-top-left-radius:20px;
+
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius:20px;
+}
+
+.videoRangeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 13px;
+  width: 97%;
+}
+
+.videoRangeContainer input {
+  margin-right: 5px;
+  width: 100%;
+}
+
+.videoRangeContainer span {
+  font-size: 0.8em;
+  width: 60px;
+  text-align: right;
+}
+.ppbuttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ppbuttons button {
+  margin: 0 0.1rem;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.ppbuttons button img {
+  width: 30px;
+  height: 30px;
+}
+.cTime{
+  margin-right: 1em;
+}
+.spanner{
+  margin-left:2em ;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+  }
+  .Header{
+    text-align: center;
+    font-size: 10px;
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 20px;
+
+    margin-left:10px ;
+    margin-right: 10px;
+  
+  }
+  
+  .videoContainer {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px;
+  
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px;
+  }
+  
+  .videoRangeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    width: 97%;
+  }
+  
+  .videoRangeContainer input {
+    margin-right: 5px;
+    width: 100%;
+  }
+  
+  .videoRangeContainer span {
+    font-size: 0.8em;
+    width: 60px;
+    text-align: right;
+  }
+  .ppbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ppbuttons button {
+    margin: 0 0.1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .ppbuttons button img {
+    width: 30px;
+    height: 30px;
+  }
+  .cTime{
+    margin-right: 1em;
+  }
+  .spanner{
+    margin-left:2em ;
+  }
+}
+
